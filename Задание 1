@@ -36,15 +36,3 @@ public class Director : Employee
         Console.WriteLine($"Директор утвердил бюджет отделю {Department}");
     }
 }
-class Program
-{
-    static void Main(string[] args)
-    {
-        Maneger maneger = new Maneger( );
-        maneger.Meeting(10);
-        Developer developer = new Developer( );
-        developer.Write_code("C#");
-        Director director = new Director();
-        director.Budget("по продажам");
-    }
-}
